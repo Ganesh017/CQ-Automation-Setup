@@ -1,0 +1,12 @@
+*** Variables ***
+${url}            https://compliancequestqcempty07--07empty54.sandbox.lightning.force.com/lightning/setup/SetupOneHome/home
+${element}        //div[@class="pbHeader"]//td[@class="pbBottomButtons"]//input[@value="New User"]
+&{queue}          queue1=CQ Change Queue
+${ak_std}         //select//option[contains(.//text(),'User: ak std')]
+&{group}          pg=pgA
+&{Account}        a1=New default Account A
+&{Contacts}       c1f=Ram    c1l=Thapa
+&{Custom}         b_url=https://compliancequestqcempty07--07empty54.sandbox.my.salesforce.com    v_url=https://compliancequestqcempty07--07empty54--compliancequest.sandbox.vf.force.com
+${domain}         emptycqpartner07.com.07empty54
+${space}          \
+&{user}           fname=ganesh    lname=user18    username=user18.ganesh@emptycqpartner07.com.07empty54    email=ganeshadhikari1155@gmail.com    fname2=ganesh    lname2=user13    username2=user13.ganesh@emptycqpartner07.com.07empty54
